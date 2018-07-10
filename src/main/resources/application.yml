@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: 'jdbc:mysql://192.168.1.108:3306/tgbk_super_manage?useSSL=false&autoReconnect=true&allowMultiQueries=true'
+    username: 'bkdev'
+    password: 'bkdev@Mysql'
+    tomcat:
+      max-active: 1000
+      max-idle: 1000
